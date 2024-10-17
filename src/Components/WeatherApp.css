@@ -1,0 +1,136 @@
+body {
+    /* color: white; */
+    overflow-x: hidden;
+    height: 100%;
+    /* background-image: url("background.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.App
+{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.container 
+{
+    /* align-items: center;
+    display: flex;
+    justify-content: center; */
+}
+.card {
+    width: 400px;
+    background-color: #ffffff00;
+    /* box-shadow: 1px 1px 17px white; */
+    border: 1px solid hidden;
+    backdrop-filter: blur(11249px);
+}
+
+.block {
+    width: 20%;
+    /* background-color: #E1BEE7; */
+    cursor: pointer;
+    padding: 10px 0px;
+}
+
+.first-block {
+    /* border-bottom-left-radius: 5px; */
+}
+
+.last-block {
+    /* border-bottom-right-radius: 5px; */
+}
+
+.block.active,
+.block:hover {
+    background-color: grey;
+    
+}
+
+.city-symbol {
+    width: 200px;
+    height: 250px;
+}
+
+.large-font {
+    font-size: 60px;
+    font-size: 46px;
+    font-weight: 600;
+
+}
+
+.symbol-img {
+    width: 40px;
+    height: 40px;
+}
+
+@media screen and (max-width: 400px) {
+    .card {
+        width: 92%;
+    }
+}
+
+
+.searchBarMainOutline {
+    border: 0.15rem solid purple;
+    width: 100%;
+    margin: auto;
+    border-radius: 0px 7px;
+}
+
+.searchBar {
+    /* margin: auto;
+    border-radius: 0px 7px; */
+    background: transparent;
+    border: none;
+    /* border: 0.15rem solid purple; */
+    width: 88%;
+    font-size: 20px;
+    padding: 5px 10px !important;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 700;
+}
+
+.searchBar:focus-visible {
+    outline: none;
+}
+
+.input-group-append {
+    background-color: #6A1B9A;
+    margin-left: 0px;
+}
+
+.input-group-append i:hover {}
+
+
+.fa-search {
+    font-size: 20px !important;
+}
+
+.weatherIcon {
+    width: 255px;
+    /* margin: 39px; */
+}
+
+.minMax {}
+
+p {
+    font-size: 31px;
+}
+
+.fas {
+    padding-right: 6px;
+}
+
+.searchBarMainOutline {
+    flex-wrap: nowrap;
+}
+

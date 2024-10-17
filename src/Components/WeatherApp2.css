@@ -1,0 +1,235 @@
+.mainDivForWather2 {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    /* background-image: url("12882.jpg"); */
+    background-size: cover;
+
+}
+
+.mainDivForWather2Div1 {
+    height: 80vh;
+    width: 1005;
+    /* background-image: url("https://img.freepik.com/free-photo/city-architecture-landscape-digital-art_23-2151065648.jpg?t=st=1729070808~exp=1729074408~hmac=25099603c34ed4448643af08af15f908164fe7e37100f9ba2ecf88c79eb021c6&w=1800"); */
+    /* background-image:url("https://img.freepik.com/free-photo/digital-art-with-urban-landscape-architecture_23-2151065722.jpg?t=st=1729071674~exp=1729075274~hmac=8a6195a4645e22857ec9aeb2b75ff6de8fc42cab9387af62cda9e6cab575ea0c&w=1380"); */
+    /* background-image: url("https://img.freepik.com/free-photo/digital-art-with-urban-landscape-architecture_23-2151065752.jpg?t=st=1729071773~exp=1729075373~hmac=45d8722cbec2d155823a85d94e2f8cba15bf870a82b7aab5b205fe02b4f2699a&w=1380"); */
+    background-image: url("sketch-modern-building.jpg");
+    
+    border-radius: 0 0 10px 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 13px;
+
+    /* background-position: 0px -216px; */
+
+}
+
+
+.searchBarMainOutlin2 {
+    border: 0.1rem solid white;
+    flex-wrap: nowrap;
+    justify-content: end;
+    /* border: 1px solid grey; */
+    border-radius: 10px;
+}
+
+.searchBar {
+    /* width: 86%; */
+    border-radius: 10px;
+    backdrop-filter: blur(12px);
+    background: transparent;
+    font-size: 22px;
+}
+
+.sampleButtons
+{
+    padding: 3px 27px;
+    border-radius: 6px;
+    backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.47);
+    font-size: 23px;
+    border: none;
+    color: black;
+    font-size: 14px;
+    transition: all 0.3s ease-in;
+    /* box-shadow: 10px 10px 10px white; */
+}
+
+
+.sampleButtons:hover
+{
+    /* font-size: 22px; */
+    /* transform: scale(1.1); */
+    color: white;
+    background: #ff00000a;
+    margin: 0px 5px;
+}
+
+.timerSize {
+    font-size: 21px;
+    color: #1b1e21;
+    font-weight: 500;
+}
+
+.dayStyle {
+    font-size: 25px;
+    color: white;
+    font-weight: 300;
+    padding-bottom: 7px;
+}
+
+.input-group-append {
+    background-color: #ffffffc2;
+    border-radius: 0px 6px 6px 0px;
+
+}
+
+.weatherIcon2 {
+    width: 144px;
+    margin-top: -51px !important;
+    margin-left: -35px;
+}
+
+.weatherType {
+    font-size: 23px !important;
+    /* margin-left: 15px; */
+    margin-top: -22px;
+    text-transform: capitalize;
+    color: white;
+}
+
+.texppsert {
+    font-size: 88px;
+    font-weight: 500;
+    color: white;
+}
+
+/* LowerArea */
+
+.mainDivForWather2Div2 {
+    background-color: white;
+    height: 19vh;
+    overflow: auto;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.daysData small,
+.daysData h6 {
+    text-align: center;
+}
+
+.daysData {
+    flex-wrap: nowrap;
+}
+
+.tempDivWidth {
+    min-width: 130px;
+
+}
+
+.tempDivWidth p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.tempPara {
+    font-size: 15px !important;
+}
+
+.marginTop {
+    margin-top: -47px !important;
+
+}
+
+.loadeDivr {
+    position: fixed;
+    top: 38%;
+    left: 50%;
+}
+
+.mainDivForWather2Opacity {
+    opacity: 0.6;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    /* background-image: url("12882.jpg"); */
+    background-size: cover;
+}
+
+.tempDivWidth:hover
+{
+    font-size: 20px;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 10px;
+    color:orangered;
+    /* transform: scaleX(1.1); */
+}
+
+
+
+@media screen and (min-width:300px) and (max-width:1024px) 
+{
+    .timerSize {
+        font-size: 15px;
+        color: #1b1e21;
+        font-weight: 500;
+    }
+    .texppsert {
+        font-size: 70px;
+        font-weight: 500;
+        color: white;
+        margin-bottom: -19px;
+    }
+    .dayStyle{
+        margin-top: -33px !important;
+    }
+    /* .weatherIcon2
+    {
+        display: block;
+    } */
+    .searchBarMainOutlin2
+    {
+        width: 67%;
+        margin: auto;
+    }
+    .sampleButtons {
+        margin: 0px 10px;
+        padding: 3px 27px;
+        border-radius: 6px;
+        backdrop-filter: blur(12px);
+        background: rgba(255, 255, 255, 0.47);
+        font-size: 23px;
+        border: none;
+        color: black;
+        font-size: 12px;
+        transition: all 0.3s ease-in;
+        /* box-shadow: 10px 10px 10px white; */
+    }
+    .marginTop {
+        margin-top: 12px !important;
+        display: flex;
+        justify-content: center;
+    }
+    .mainDivForWather2Div1
+    {
+        height: 77vh; 
+    }
+    .tempDivWidth {
+        min-width: 71px;
+    }
+    .weatherIcon2 {
+        width: 144px;
+        margin-top: -19px !important;
+        margin-left: -32px;
+    }
+}
+
+@media screen and (min-width:1024px) 
+{
+    .tempDivWidth {
+        min-width: 125px;
+    }
+}
